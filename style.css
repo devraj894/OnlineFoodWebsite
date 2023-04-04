@@ -1,0 +1,214 @@
+/* navigation bar design */
+.navbar img{
+    position: relative;
+    left: 40px;
+    top: 52px;
+    height: 60px;
+    width: 110px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin: 23px;
+    padding: 25px;
+    font-size: 25px;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+.navbar ul li a{
+    color: aqua;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar ul li a:hover{
+    color: rgb(131, 123, 123);
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    text-decoration: none;
+}
+
+/* home design */
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home h1{
+    font-size: 3rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.home p{
+    font-size: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    background-color: brown;
+    border: 2px solid white;
+    box-shadow: 2px 3px 5px brown;
+}
+.home::before{
+    content: "";
+    position: absolute;
+    background-image: url('https://wallpaperaccess.com/full/3014596.jpg');
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.home::before{
+    height: 65%;
+}
+
+/* services section */
+.primary-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    position: relative;
+    top: 25px;
+    text-decoration: underline;
+}
+.service{
+    position: relative;
+    top: 20px;
+    display: flex;
+}
+.box1 img{
+    height: 150px;
+}
+.box1{
+    width: 500px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 12px;
+    padding: 10px;
+    background-color: rgb(143, 152, 156);
+    border-radius: 10px;
+}
+.secondary-center{
+    font-size: 2rem;
+}
+.box1 p{
+    position: relative;
+    left: 4px;
+}
+
+/* client section */
+#image{
+    display: flex;
+}
+.image1{
+    position: relative;
+    height: 5px;
+    width: 10px;
+    left: 5px;
+}
+.image1 img{
+    height: 500px;
+    width: 400px;
+}
+.image2{
+    position: relative;
+    left: 520px;
+}
+.image2 img{
+    height: 500px;
+    width: 450px;
+}
+.image3{
+    position: relative;
+    left: 600px;
+}
+.image3 img{
+    height: 500px;
+    width: 450px;
+}
+.clients::before{
+    content: "";
+    position:absolute;
+    background-image: url('https://t3.ftcdn.net/jpg/02/94/19/98/360_F_294199808_iVKkhLOnlSyGFnBXf15sFx9LEW6gF9en.jpg');
+    width: 100%;
+    height: 64%;
+    top: 868px;
+    z-index: -1;
+}
+
+/* contact section */
+.contact form{
+    position: relative;
+    top: 30x;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+form{
+    font-size: 2rem;
+    margin: 20px;
+}
+form input{
+    font-size: 2rem;
+}
+.contact::before{
+    background-image: url('https://www.truecommerce.com/uk-en/sites/truecommerce.com.uk-en/files/2019-08/Contact-us-2.jpg');
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    top: 1370px;
+    z-index: -1;
+}
+#heading{
+    position: relative;
+    color: black;
+    top: -52px;
+    text-decoration: underline;
+    font-size: 34px;
+    text-align: center;
+   
+}
+.btn2{
+    font-family: fantasy;
+}
+/* copy section */
+.copy{
+    position: relative;
+    text-align: center;
+    top: 27px;
+}
+
+
+
+
+
+
+
+
+
+
